@@ -13,8 +13,6 @@ I used a Windows 11 PC; here is what you should have already ínstalled:
 
 ## Building the standard PicoMite firmware
 
-__Note that you use these instructions at your own risk. They worked for me but your software environment may be different and I take no responsibilities.__
-
 1. The following commands I execute in an Anaconda Powershell. You can use any other windows shell as long it can access your `git` installation.
 2. Create a new folder that hosts all parts (e.g., ``picomite'') and change to thah folder, e.g.:
     ```
@@ -55,3 +53,12 @@ https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads).
     
 12. If all goes well, the "Output" window should show only warnings and the line `[build] Build finished with exit code 0` at the end. The new firmware file `PicoMite.uf2` should be found under `.\picomite\PicoMite\build`.
 
+## Building the USB PicoMite firmware
+
+1. Clone PicoMiteUSB into your `picomite` folder (the one that contains `PicoMite` and `pico-sdk`) and copy `CMakeLists.txt` from the new folder to `PicoMite`:
+   ```
+   git clone https://github.com/UKTailwind/PicoMiteUSB.git
+   copy .\PicoMite\CMakeLists.txt .\PicoMite\CMakeLists_standard.txt
+   copy .\PicoMiteUSB\CMakeLists.txt .\PicoMite\
+   '''
+   
