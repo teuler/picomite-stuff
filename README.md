@@ -2,7 +2,7 @@
 
 I used a Windows 11 PC; here is what you should have already ínstalled:
 - Microsoft Visual Studio Code (VSCode, as editor and convinient build environment)
-- `git` -- as I have the Python Anaconda distribution installed, I just needed to add `git` package through the Anaconda.Navigator. You can also install `git` from the usual sources.
+- `git` - as I have the Python Anaconda distribution installed anyways, I just needed to add `git` package through the Anaconda.Navigator. You can also install `git` from the usual sources.
 
 __Note that you use these instructions at your own risk. They worked for me but your software environment may be different and I take no responsibilities.__
 
