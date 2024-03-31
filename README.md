@@ -6,7 +6,7 @@ I used a Windows 11 PC; here is what you should have already ínstalled:
 
 __Note that you use these instructions at your own risk. They worked for me but your software environment may be different and I take no responsibilities.__
 
-1. The following commands I execute in an Anaconda Powershell.
+1. The following commands I execute in an Anaconda Powershell. You can use any other windows shell as long it can access your `git` installation.
 2. Create a new folder that hosts all parts (e.g., ``picomite'') and change to thah folder, e.g.:
     ```
     mkdir picomite
