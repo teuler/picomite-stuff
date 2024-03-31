@@ -5,7 +5,7 @@ PicoMite MMBasic was created by Geoff Graham and Peter Mather - for more infos a
 
 __Notes:__  
 _(1): You use these instructions at your own risk. They worked for me but your software environment may be different and I take no responsibilities if you damage your configuration._  
-_(2): There may be an easier, more straight-forward way to set up the built chain - this is just what I figured out to work._
+_(2): There may be an easier, more straight-forward way to set up the build chain - this is just what I figured out to work._
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ I used a Windows 11 PC; here is what you should have already ínstalled:
 ## Building the standard PicoMite firmware
 
 1. The following commands I execute in an Anaconda Powershell. You can use any other windows shell as long it can access your `git` installation.
-2. Create a new folder that hosts all parts (e.g., ``picomite'') and change to thah folder, e.g.:
+2. Create a new folder that hosts all parts (e.g., ``picomite'') and change to that folder, e.g.:
     ```
     mkdir picomite
     cd .\picomite\
