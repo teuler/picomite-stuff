@@ -27,7 +27,7 @@ I used a Windows 11 PC; here is what you should have already ínstalled:
     ```
 7. Download ``pico-setup-windows-x64-standalone.exe`` from [here](https://github.com/raspberrypi/pico-setup-windows/releases/tag/v1.5.1) and run it to install the pico build chain for Windows. This adds the entry "Pico - Visual Studio Code" to the Windows menue.
 
-8. Find out where the pico sdk was installed. It's likely somewhere under `"C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk`. We need to replace a few files there. For this, you need to run the Powershell in administrator mode. Alternatively, you can replace the files also via the File explorer.
+8. Find out where the pico sdk was installed. It's likely somewhere under `"C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\pico-sdk`. We need to replace a few files there. For this, you need to __run the Powershell in administrator mode__. Alternatively, you can replace the files also via the File explorer.
 
     Replace ``gpio.c`` in the sdk folder (you identified above) by the one from PicoMite as decribed in Peter's readme:
     ```
