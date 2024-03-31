@@ -61,4 +61,16 @@ https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads).
    copy .\PicoMite\CMakeLists.txt .\PicoMite\CMakeLists_standard.txt
    copy .\PicoMiteUSB\CMakeLists.txt .\PicoMite\
    '''
+2. Rebuild the firmware as described above (from point 11.)
+
+## Troubleshooting
+
+- Some commits don't work for me -- I assume there is work in progress that is uploaded to the repository before the code is complete. In this case, one can try to set the code back to a certain commit, e.g.:
+  ```
+  cd .\PicoMite\
+  git reset --hard 0331d03
+  ```
+  The commit ID you need to find in the commit history of the repository (e.g., the commits on Mar 24, 2024, has the ID `0331d03`)
+  
+   
    
