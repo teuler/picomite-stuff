@@ -5,7 +5,7 @@ I used a Windows 11 PC; here is what you should have already ínstalled:
 - ``git'' -- I added the `git` package through the Anaconda.Navigator (yes, I know, it is so slow ...)
 - Microsoft Visual Studio Code (as editor and convinient build environment)
 
-__Note that you use these instructions at your own risk.___
+__Note that you use these instructions at your own risk. They worked for me but your software environment may be different and I take no responsibilities.__
 
 1. The following commands I execute in an Anaconda Powershell.
 2. Create a new folder that hosts all parts (e.g., ``picomite'') and change to thah folder, e.g.:
