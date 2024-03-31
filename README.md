@@ -1,9 +1,8 @@
 # picomite-stuff
 
 I used a Windows 11 PC; here is what you should have already ínstalled:
-- the Python Anaconda distribution
-- ``git'' -- I added the `git` package through the Anaconda.Navigator (yes, I know, it is so slow ...)
 - Microsoft Visual Studio Code (VSCode, as editor and convinient build environment)
+- `git` -- as I have the Python Anaconda distribution installed, I just needed to add `git` package through the Anaconda.Navigator. You can also install `git` from the usual sources.
 
 __Note that you use these instructions at your own risk. They worked for me but your software environment may be different and I take no responsibilities.__
 
