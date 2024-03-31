@@ -33,8 +33,17 @@ __Note that you use these instructions at your own risk. They worked for me but 
     git clone https://github.com/hathach/tinyusb.git
     cd ..\..
     ```
-7. Download ``pico-setup-windows-x64-standalone.exe`` from [here](https://github.com/raspberrypi/pico-setup-windows/releases/tag/v1.5.1) and run it to install the pico build chain for Windows. Note that this installs the pico sdk again but we will use mainly the integration of the build chain into VSCode.
+7. Download ``pico-setup-windows-x64-standalone.exe`` from [here](https://github.com/raspberrypi/pico-setup-windows/releases/tag/v1.5.1) and run it to install the pico build chain for Windows. Note that this installs the pico sdk again but we will use mainly the integration of the build chain into VSCode. This adds the entry "Pico - Visual Studio Code" to the Windows menue.
 
 8. Download and install the tool chain (`arm-gnu-toolchain-13.2.rel1-mingw-w64-i686-arm-none-eabia.exe`) required for the Picomite (as explained in Peter's readme) from [here](
 https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads).
+
+9. Run VSCode (__not yet the "Pico - Visual Studio Code" version__) and open in VSCode the PicoMite folder; the one with Peter's code (e.g., `D:\picomite\PicoMite`).
+10. Now we need to add the new GCC 13.2.1 toolchain to VSCode: Select the CMake symbol at the left of the VSCode window, go to the entry directly under "Configure" and select "[Scan for kits]". It should now find "GCC 13.2.1 arm-non-eabi" and add it to the available compiler versions. Select it such that comes up under "Configure". Exit VSCode.
+
+10. Now run "Pico - Visual Studio Code"; it should reopen the PicoMite folder and immediately start configuring the tool chain. Make sure that "GCC 13.2.1 arm-non-eabi" is selected under "Configure".
+
+11. Build the PicoMite firmware by clicking the "Build all projects" button next top the "PROJECT OUTLINE" entry. If you want a clean build, there is also "Clean rebuild all projects" under the "More Actions" button to the right of the build button.
+    
+12. If all goes well, the "Output" window should show only warnings and the line `[build] Build finished with exit code 0` at the end. The new firmware file `PicoMite.uf2` should be found under `.\picomite\PicoMite\build`.
 
