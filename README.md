@@ -3,7 +3,7 @@
 These are instructions to build the PicoMite MMBasic firmware on a Windows PC.  
 PicoMite MMBasic was created by Geoff Graham and Peter Mather - for more infos and copyrights see [Geoff's pages](https://geoffg.net/picomite.html) and [Peter's repository](https://github.com/UKTailwind/PicoMite).
 
-__Notes:__
+__Notes:__  
 _(1): You use these instructions at your own risk. They worked for me but your software environment may be different and I take no responsibilities if you damage your configuration._  
 _(2): There may be an easier, more straight-forward way to set up the built chain - this is just what I figured out to work._
 
